@@ -18,6 +18,7 @@ AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.maxMetrics=500"
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.accountName=customer1"
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.accountAccessKey=FOOBAR"
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.uniqueHostId=$HOSTNAME"
+# AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.machine.agent.hierarchyPath=DataCenter|Rack1|MachineName"
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.applicationName=$HOSTNAME" # Optional
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.tierName=$HOSTNAME" # Optional
 # AGENT_OPTIONS="$AGENT_OPTIONS -Dappdynamics.agent.nodeName=$HOSTNAME" # Optional
